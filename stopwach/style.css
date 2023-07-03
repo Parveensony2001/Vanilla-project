@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  padding: 0vh 50%;
+  background-image: url("./hanumanji.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container{
+  height: 60vh;
+width: 60vw;
+background-color: transparent;
+border: 1px solid black;
+box-shadow: 1px 6px 30px;
+position: absolute;
+left: 20vw;
+top: 20vh;
+}
+p,.time{
+  text-align: center;
+  padding: 1vh;
+  text-transform: uppercase;
+  font-size: 8vh;
+  color: white;
+}
+.semicontainer{
+  height: 20vh;
+  width: 60vw;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.semicontainer button{
+  height: 8vh;
+  padding: 0vh;
+  position: relative;
+  top: 7vh;
+  width: 8vw;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-size: x-large;
+  color: white;
+  box-shadow: 1px 9px 30px 19px gold;
+}
+.semicontainer button:hover{
+      opacity: .5;
+}
+
+
