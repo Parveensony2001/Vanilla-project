@@ -1,0 +1,48 @@
+:root {
+  --hue: 200;
+  --saturation: 50%;
+  --foreground-color: hsl(var(--hue), var(--saturation), 75%);
+  --background-color: hsl(var(--hue), var(--saturation), 20%);
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  overflow: hidden;
+}
+.box{
+  height: 8vh;
+  width: 29vw;
+  background-color: #867c85;
+  padding: 0px;
+  border-radius: 1vh;
+}
+.container{
+  display: flex;
+justify-content: center;
+top: 18vh;
+position: relative;
+}
+.button {
+  width: 20vw;
+  height: 8vh;
+  color: rgb(49, 26, 3);
+  position: relative;
+  border: 0px;
+}
+.big-box{
+    height: 20vh;
+    width: 80vw;
+    background-color: lightslategray;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    overflow: scroll;
+}
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
