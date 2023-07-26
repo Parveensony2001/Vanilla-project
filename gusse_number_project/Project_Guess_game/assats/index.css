@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Fasthand&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+    background-color: rgb(43, 41, 41);
+    font-family: 'Agdasima', sans-serif;
+    color: aliceblue;
+}
+.upperline{
+  display:flex;
+  justify-content: space-between;
+}
+.btn{
+  padding: 0vh 5vh;
+    font-size: 3vw;
+    margin-top: 4vh;
+  text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 5vw;
+}
+.partline{
+  padding: 1vh;
+  background-color: white;
+  margin: 0;
+}
+.guess_box{
+height: 8vw;
+width: 18vw;
+background-color: white;
+border-radius: 35px;
+position: relative;
+left: 41vw;
+top: -4vw;
+}
+.number{
+  display: grid;
+    justify-items: center;
+    text-align: center;
+    font-size: 7vw;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:20vh ;
+  overflow: hidden;
+}
+.input_number{
+  display: block;
+  font-size: 3vw;
+  margin-bottom: 9vh;
+  width: 30vw;
+  height: 7vw;
+  margin: 3%;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+.outputArea{
+  margin-top: -6vw;
+  font-size: 5vw;
+  position: relative;  
+}
